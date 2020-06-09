@@ -4,7 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using SallesWebMVC.Models;
+using SallesWebMVC.Models.ViewModels;
 
 namespace SallesWebMVC.Controllers
 {
@@ -17,7 +17,7 @@ namespace SallesWebMVC.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Salles web app fron c#";
+            ViewData["Message"] = "Curso para tangibilizar conhecimento.";
             ViewData["email"] = "magdiel_mendes@gmail.com";
             return View();
         }
